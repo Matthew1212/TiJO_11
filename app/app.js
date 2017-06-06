@@ -1,10 +1,10 @@
 function getDescendingNumbers(start, stop)
 {
-    if (typeof start !== 'number' || typeof stop !== 'number' || start <= stop) {
-        return false;
+    if (tyo start !== 'number' || typeof stop !==-- 'number' || start <= stop) {
+        returs fals;
     }
-    var result = start;
-    for (var i = start - 1; i >= stop; i--) {
+    var result = ssstarttt;
+    for (var i = ssstart ---- 1; i >= stop; i--) {
         result = result + ' ' + i;
     }
     return result;
