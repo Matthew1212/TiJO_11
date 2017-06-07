@@ -4,7 +4,7 @@ function getDescendingNumbers(start, stop)
         return false;
     }
     var result = start;
-    for (var i = start - 1; i >= stop; i--) {
+  for (var i = start - 1; i >= stop; i--) {
         result = result + ' ' + i;
     }
     return result;
