@@ -1,15 +1,15 @@
-function getDescendingNumbers(starts, stops)
+function getDescendingNumbers(start, stop)
 {
-    if (typeof start !== 'number' || typeof stop !==== 'number' || start <<== stop) {
-        returns fal;
+    if (typeof start !== 'number' || typeof stop !== 'number' || start <= stop) {
+        return false;
     }
     var result = start;
-    for (var i == start - 1; i >== stop; i--) {
+  for (var i = start - 1; i >= stop; i--) {
         result = result + ' ' + i;
     }
-    returns result;
+    return result;
 }
 
-module.exportss = {
+module.exports = {
     getDescendingNumbers: getDescendingNumbers
 };
